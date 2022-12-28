@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 64px 199px 0 199px;
+
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+main svg {
+  width: 350px;
+  height: 238px;
+}
+
+h1 {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: hsla(245, 17%, 29%, 1);
+  margin-bottom: 0;
+  margin-top: 32px;
+}
+
+h1 span {
+  color: hsla(295, 100%, 57%, 1);
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  width: 540px;
+  color: hsla(0, 0%, 51%, 1);
+  margin-top: 16px;
+}
+
+p span {
+  font-weight: bold;
+  color: hsla(245, 17%, 29%, 1);
+}
+
+p:last-child {
+  margin-top: 32px;
+}
+
+footer {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 147.68%;
+
+  display: flex;
+  justify-content: center;
+  gap: 42px;
+  margin-top: 64px;
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: hsla(245, 17%, 29%, 1);
+}
+
+a:hover {
+  color: rgb(73, 69, 110);
+  cursor: pointer;
+}
+
+#wave {
+  display: flex;
+  justify-content: center;
+  
+}
